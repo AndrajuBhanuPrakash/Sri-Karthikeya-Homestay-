@@ -1,0 +1,361 @@
+.anchor{
+    text-decoration: none;
+    color:white;
+    font-size:22px;
+    font-family:"Roboto";
+} 
+body {
+  width: 1280px; /* fixed desktop width */
+  margin: 0 auto;
+  overflow-x: auto; /* allow scroll if smaller screen */
+}
+
+
+.nav{
+ margin-left: 450px;
+ font-size:22px;
+ margin-top:-30px;
+}
+
+.img{
+    height:50px;
+    width: 150px;
+    margin-left:10px;
+
+}
+.card1{
+ 
+     background-color:white;
+    height:400px;
+    margin-top:-21px;
+}
+.h1{
+    color:red;
+    font-size:30px;
+    text-align:center;
+}
+.h2{
+    color:blue;
+    font-size:30px;
+    text-align:center;
+}
+.card2{
+       background-color:white;;
+  margin-top:-20px;
+    height:700px;
+}
+.card4{
+    background-color:white;
+   padding-left: 120px;
+    height:200px;
+    width:250px;
+    margin-top:-16px; 
+  
+}
+.card10{
+    background-color:rgb(235, 234, 234);
+   padding-left: 20px;
+    height:200px;
+    width:230px;
+    margin-left:10px;
+    /* margin-top:-16px;  */
+  
+}
+.card3{
+background-color: white;
+    height:450px;
+    margin-top:-20px;
+}
+.cards{
+  background-image:linear-gradient(to right,rgb(207, 36, 96),rgb(112, 52, 202),rgb(162, 117, 52),rgb(203, 43, 43),rgb(125, 188, 82),rgb(205, 38, 66));
+
+    height:450px;
+
+}
+.img1{
+    height:330px;
+    width:300px;
+ 
+}
+.para{
+    font-family: "Roboto";
+   color:black;
+    width:700px;
+   margin-left:30px;
+   font-size:22px;
+}
+.para2{
+   color:white;
+    width:500px;
+   margin-left:30px;
+   font-size:20px;
+}
+.footer{
+    width: 1280px; 
+  margin: 0 auto;
+  overflow-x: auto; 
+  background-color:rgb(4, 4, 48);
+    height:170px; 
+    margin-top:20px; 
+     /* margin-left:-10px; */
+    /* width:245vh; */
+}
+.footer1{
+     width: 1280px; 
+  margin: 0 auto;
+  overflow-x: auto; 
+    background-color:white;
+    height:170px;
+    margin-top:2px;
+}
+.button{
+
+    background-color:red;
+    
+    width:140px;
+    height:35px;
+    justify-content: center;
+    margin-left:500px;
+    border:none;
+   
+   
+}
+.button1{
+    border: none;
+    background-color:red;
+    color:white;
+    width:140px;
+    height:35px;
+    justify-content: center;
+    margin-left:20px;
+    font-size:23px;
+    font-family:"italic";
+}
+.para4{
+    font-size:18px;
+    font-family:Bold;
+    margin-top:3px;
+    margin-left:53px;
+}
+.p1{
+    width:300px;
+    margin-left:5px;
+    color:white;
+}
+.card4{
+    background-color:rgb(240, 234, 236);
+    height:160px;
+    margin-left:10px;
+}
+.h2{
+    color:red;
+    margin-left:-45px;
+     width:300px;
+}
+.h{
+    color:red;
+    text-align: center;
+    
+}
+.h5{
+    color:red;
+    margin-left: 500px;;
+    width:500px;
+}
+.img2{
+    height:320px;
+    width:300px;
+   }
+   .img3{
+    height:320px;
+    width:330px;
+    margin-top: 30px;
+   }
+   .images{
+    height:400px;
+    width:430px;
+    margin-left:10px;
+   }
+   .footer2{
+    background-color:rgb(5, 5, 49);
+    height:216px;
+    margin-top:-26px;
+    width:1340px;
+  
+
+}
+.card5{
+background-color:white;
+    height:900px;
+}
+.p2{
+    font-size:18px;
+    color:black;
+    width:400px;
+    margin:20px;
+
+}
+.card6{
+    background-color:rgb(245, 242, 242);
+    height:320px;
+    width:430px;
+   margin-left: 140px;
+    /* margin:20px; */
+    
+}
+.p3{
+    width:800px;
+    color:black;
+    margin:20px;
+}
+.h3{
+    color:white;
+    margin-left:40px;
+}
+.p4{
+    color:orange;
+    font-size:23px;
+    font-family:"Bold";
+     margin-left:44px;
+}
+.card7{
+  background-color: white;
+    height:1000px;
+    margin-top:-21px;
+}
+.card8{
+    background-color:rgb(221, 220, 220);
+    height:230px;
+    width:255px;
+    margin-left:20px;
+    font-size:23px;
+}
+.b{
+    margin-left:15px;
+}
+.p{
+    width:250px;
+    margin-left:15px;
+    color:white;
+    font-size:18px;
+}
+.para3{
+    width:250px;
+    margin-left:15px;
+    color:black;
+    font-size:20px;
+}
+.p1{
+    width:210px;
+    margin-left:15px;
+    color:black;
+}
+.input{
+   width:200px;
+   height:20px;
+   margin-left:30px;
+   margin-top:-3px;
+   } 
+.p5{
+    margin-left:70px;
+    margin-top:-1px;
+}
+.card9{
+    height:640px;
+    width:500px;
+    background-color:rgb(235, 235, 235);
+    margin-top:20px;
+    margin-left:20px;
+}
+.button2{
+    margin-left:20px;
+    height:30px;
+    width:220px;
+    background-color:rgb(69, 69, 147);
+    color:white;
+    margin-top:10px;
+}
+.text{
+    width:120px;
+    height:22px;
+}
+.input1{
+   width:200px;
+   height:30px;
+   margin-left:30px;
+   } 
+.paragragh{
+    font-size:20px;
+    margin-left:100px;
+    color:red;
+}
+.div{
+    margin-left:20px;
+  
+}
+.h4{
+    margin-left:80px;
+    color:black;
+}
+.heading{
+    color:red;
+    font-size:18px;
+    margin-left:20PX;
+}
+.inputs{
+    background-color:rgb(235, 235, 235);
+    margin-left:30px;
+    width:250px;
+    height:20px;
+    color:black;
+}
+.button4{
+       background-color:rgb(235, 235, 235);
+         margin-left:70px;
+         height:26px;
+         width:170px;
+         color:black;
+
+}
+.comments{
+    margin-left:50px;
+
+}
+.label{
+    height:23px;
+    width:150px;
+    font-size:23px;
+    margin-left:420px;
+}
+.inputs{
+    height:33px;
+}
+.button5{
+    background-color:rgb(5, 5, 49);
+    margin-left:4px;
+    height:36px;
+    width:120px;
+    border:none;
+}
+.p6{
+    color:black;
+    width:200px;
+   margin-left:20px;
+}
+.para5{
+    font-size:23px;
+    color:black;
+    margin-left:520px;
+}
+.para1{
+    width:800px;
+    margin-left:120px;
+    font-size:22px;
+    color:white;
+}
+.paragraphs{
+    margin-left:120px;
+    font-size:25px;
+    color:rgb(150, 187, 196);
+    margin-top:-20px;
+}

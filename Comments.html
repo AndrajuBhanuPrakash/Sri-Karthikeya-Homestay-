@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet"href=style.css>
+       <div class="containers">
+     <img src="images/home stay1.png"class="img"/>
+    <nav class="nav">
+          <button class="button5"><a class="anchor"href="Home.html">Home</a></button>
+        <button class="button5"><a class="anchor"href="Rooms.html">Rooms</a></button>
+         <button class="button5"><a class="anchor"href="Facilities.html">Facilities</a></button>
+         <button class="button5"><a class="anchor"href="About.html">About</a></button>
+         <button class="button5"><a class="anchor"href="Contact.html">Contact</a></button>
+         <button class="button5"><a class="anchor"href="Comments.html">Comments</a></button>
+    </nav>
+    </div>
+</div>
+<body>
+<div  style="display:flex">
+<div style="margin-top:-22px">
+        <h1 class="h4">Name:</h1>
+            <input class="inputs" type="text" id="name">
+            <h2  class="h4">Rating:</h2>
+            <select class="inputs"id="select">
+                <option style="height:22px">⭐</option>
+                <option>⭐</option>
+                <option>⭐⭐⭐</option>
+                <option>⭐⭐⭐</option>
+                <option>⭐⭐⭐⭐</option>
+                <option>⭐⭐⭐⭐⭐</option>
+            </select>
+            <h2  class="h4">Comments</h2>
+            <textarea class="inputs" id="Comment"></textarea></br>
+            <button class="button4"onclick="Post()">Post</button>
+            </div>
+            <div>
+            <h1  class="h4">All Comments</h1>
+            
+       <div class="comments" id="result"></div>
+  </div>
+  </div>
+ 
+    
+</body>
+</html>
+<script>
+    function Post(){
+  var name= document.getElementById("name").value;
+  var select= document.getElementById("select").value;
+  var comments=document.getElementById("Comment").value;
+ document.getElementById("result").innerHTML=
+ document.getElementById("result").innerHTML+
+   name+"<br>"+select+"<br>"+comments+"<br>"
+  document.getElementById("name").value="";
+//   document.getElementById("resultid").innerHTML=result;
+    }
+</script>
+</html>

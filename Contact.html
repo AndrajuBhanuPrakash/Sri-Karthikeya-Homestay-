@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <meta name="viewport" content="width=1280, user-scalable=no">
+
+    <title>Document</title>
+    <link rel="stylesheet"href=style.css>
+      <div class="containers">
+         <img src="images/home stay1.png"class="img"/>
+    <nav class="nav">
+          <button class="button5"><a class="anchor"href="Home.html">Home</a></button>
+        <button class="button5"><a class="anchor"href="Rooms.html">Rooms</a></button>
+         <button class="button5"><a class="anchor"href="Facilities.html">Facilities</a></button>
+         <button class="button5"><a class="anchor"href="About.html">About</a></button>
+         <button class="button5"><a class="anchor"href="Contact.html">Contact</a></button>
+         <button class="button5"><a class="anchor"href="Comments.html">Comments</a></button>
+
+    </nav>
+    </div>
+</head>
+<body>
+    <div class="card7">
+        <h1 class="h1">Contact Us</h1>
+        <p style="font-size:24px">Get in Touch with us for booking,inquires or any assistance we'are here  to 
+            make your stay memorable
+        </p>
+        <div style="display:flex">
+            <div class="card8">
+                <h2 class="h1">Phone</h2>
+                <b class="b">+91 9985446866</b>
+                <p class="para3">call us anytime for booking or inquires</p>
+            </div>
+            <div class="card8">
+             <h2 class="h1">Address</h2>   
+             <p class="para3">3rd shreet, Chandamama Estates, Mopidevi, Andhra Pradesh 521125</p>
+            <p class="para3">Located in the heart of scared Sri Karthikeya Homestay </p>
+            </div>
+            <div class="card8">
+                <h1 class="h1">Hours</h1>
+                <p class="para3">24/7 Available</p>
+                <p class="para3">Rooms and essential services accessible at any time, day or night, for  convenience,
+                      reception, and private rooms depending on the facility.</p>
+                </div>
+        </div>
+        <div style="display:flex">
+            <div  class="card9" >
+           <h1 style="color:red;margin-left:20px">Send us a Message</h1>  
+           <h3 class="p5">Full Name</h3>
+           <input class="input"type="text"placeholder="Enter your full Name" id="name">
+           <h3  class="p5">Email Address</h3>
+           <input   class="input"type="text"placeholder="Enter your Email Address"id="email">
+           <h3  class="p5">Date</h3>
+           <input class="input" type="date" id="date">
+            <h3  class="p5">Time</h3>
+           <input class="input" type="time" id="time">
+           <select id="option">
+          <option>AM</option>
+            <option>PM</option></select>
+           <h3 class="p5">Stay Room Persons</h3>
+            <textarea class="input1" placeholder="More Information your details"type="text" id="detail"></textarea></br></br>
+           <h3 class="p5">phone Number</h3>
+            <input class="input" type="text"placeholder="Enter your Phone Number"id="contact"></br>
+           <h3 class="p5">Rooms</h3>
+           <div style="display:flex">
+            <div style="margin-top:-20px;margin-left:20px">
+                <p class="para4">Ac</p>
+                <input type="text" class="text" id="A">
+            </div>
+            <div style="margin-top:-20px;margin-left:20px"  >
+                <p class="para4">Non AC</p>
+            <input type="text" class="text" id="N">
+             <div style="margin-top:15px;margin-left:-120px">
+              <button class="button1" onclick="whatsapp()">Submit</button>
+
+           </div>
+             
+           </div>
+             </div>
+        <div style="margin-left:520px;margin-top:-600px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26470.74754218037!2d80.923398!3d16.124106!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a49f12abd849f05%3A0x110e160b88ac3707!2sSri%20Karthikeya%20HomeStay%20Rooms!5e1!3m2!1sen!2sin!4v1753895706210!5m2!1sen!2sin" width="650" height="560" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+       </div>
+   
+    </div>
+    <footer class="footer" style="margin-top:4px">
+<div style="display:flex">
+    <div style="margin-left:120px">
+        <h1 style="color:red; font-size:25px;width:300px">Sri Karthikeya Homestay</h1>
+        <p class="p"> we strive to provide not just a place to stay, but a peaceful and memorable experience rooted in warmth, care, and local charm.</p>
+    </div>
+    <div> 
+        <h1 style="margin-left:120px;color:red">contact</h1>
+        <h2  style="margin-left:140px;color:white">Tirumalsetti Samudra venu surya prakasa Rao</h2>
+        <b style="margin-left:140px;color:white">+91 9985446866</b>
+        
+    </div>
+</div>
+</footer>
+</body>
+<script>
+ function whatsapp() {
+      let number = "9985446866"
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var dates = document.getElementById("date").value;
+      var time=document.getElementById("time").value;
+      var option=document.getElementById("option").value;
+      var details = document.getElementById("detail").value;
+      var contacts = document.getElementById("contact").value;
+      var A = document.getElementById("A").value;
+      var N = document.getElementById("N").value;
+        var message =
+        "NAME: " + name + "%0A" +
+        "EMAIL: " + email + "%0A" +
+        "DATE: " + dates + "%0A" +
+         "Time: " + time  +""+ option + "%0A" +
+        "DETAILS: " + details + "%0A" +
+        "CONTACT: " + contacts + "%0A" +
+        "AC ROOMS: " + A + "%0A" +
+        "NON-AC ROOMS: " + N;
+         var url = "https://wa.me/" + number + "?text=" + message;
+         window.open(url, '_blank');
+ }
+
+</script>
